@@ -9,8 +9,8 @@ class FoundationAsset extends AssetBundle
     public $sourcePath = '@bower/foundation';
     
     public $css = [
-        'css/normalize.css',
-        'css/foundation.css',
+        'css/normalize.min.css',
+        'css/foundation.min.css',
     ];
     public $js = [
         'js/vendor/fastclick.js',
@@ -18,5 +18,6 @@ class FoundationAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
+        'plastique\foundation5\FlagIconsAsset'
     ];
 }

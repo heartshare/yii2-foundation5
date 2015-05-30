@@ -12,7 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/foundation": "5.5.*"
+        "bower-asset/foundation": ">=5.5.2",
+        "bower-asset/flag-icon-css": "*"
     },
     "autoload": {
         "psr-4": {
