@@ -18,6 +18,7 @@ class FoundationAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'plastique\foundation5\FlagIconsAsset'
+        'plastique\foundation5\FlagIconsAsset',
+        'plastique\foundation5\FoundationIconFontsAsset'
     ];
 }
