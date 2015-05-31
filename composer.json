@@ -13,7 +13,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/foundation": ">=5.5.2",
-        "bower-asset/flag-icon-css": "*"
+        "bower-asset/foundation-icon-fonts": "*"
     },
     "autoload": {
         "psr-4": {
