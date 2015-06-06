@@ -1,6 +1,6 @@
 <?php
 
-namespace plastique\foundation5;
+namespace plastique\foundation5\assets;
 
 use yii\web\AssetBundle;
 
@@ -18,6 +18,6 @@ class FoundationAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'plastique\foundation5\FoundationIconFontsAsset',
+        'plastique\foundation5\assets\FoundationIconFontsAsset',
     ];
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace plastique\foundation5;
+namespace plastique\foundation5\assets;
 
 use yii\web\AssetBundle;
 
